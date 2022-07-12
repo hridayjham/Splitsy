@@ -15,6 +15,7 @@
 		4F1F005D287E0BBC00B26B12 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4F1F005C287E0BBC00B26B12 /* FirebaseFirestoreSwift */; };
 		4F1F005F287E0BBC00B26B12 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4F1F005E287E0BBC00B26B12 /* FirebaseStorage */; };
 		4F1F0061287E0C9000B26B12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F1F0060287E0C9000B26B12 /* GoogleService-Info.plist */; };
+		4F1F0063287E15E100B26B12 /* SuccessfulSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F0062287E15E100B26B12 /* SuccessfulSignInView.swift */; };
 		4F2610FD2876616A00AB9C36 /* SplitsyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2610FC2876616A00AB9C36 /* SplitsyApp.swift */; };
 		4F2610FF2876616A00AB9C36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2610FE2876616A00AB9C36 /* ContentView.swift */; };
 		4F2611012876616C00AB9C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2611002876616C00AB9C36 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		4F1F0060287E0C9000B26B12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F1F0062287E15E100B26B12 /* SuccessfulSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessfulSignInView.swift; sourceTree = "<group>"; };
 		4F2610F92876616A00AB9C36 /* Splitsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splitsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2610FC2876616A00AB9C36 /* SplitsyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitsyApp.swift; sourceTree = "<group>"; };
 		4F2610FE2876616A00AB9C36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				4F2610FE2876616A00AB9C36 /* ContentView.swift */,
 				4F9A2EDD287756B800622703 /* LoginView.swift */,
 				4F26110A2876618600AB9C36 /* User.swift */,
+				4F1F0062287E15E100B26B12 /* SuccessfulSignInView.swift */,
 				4F1F0060287E0C9000B26B12 /* GoogleService-Info.plist */,
 				4F26110C287661E500AB9C36 /* Transaction.swift */,
 				4F2611002876616C00AB9C36 /* Assets.xcassets */,
@@ -180,6 +183,7 @@
 				4F2610FD2876616A00AB9C36 /* SplitsyApp.swift in Sources */,
 				4F26110D287661E500AB9C36 /* Transaction.swift in Sources */,
 				4F9A2EDE287756B800622703 /* LoginView.swift in Sources */,
+				4F1F0063287E15E100B26B12 /* SuccessfulSignInView.swift in Sources */,
 				4F26110B2876618600AB9C36 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
