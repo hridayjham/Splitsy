@@ -26,10 +26,10 @@ struct ContentView: View {
                         TextField("password", text: $password)
                             .padding()
                         Button("Log in") {
-                            
+                            validateFields()
                         }
                         .padding()
-                        Button("Sign up") {
+                        Button("Create an account") {
                             hasAccount.toggle()
                         }
                         .padding()
@@ -96,24 +96,21 @@ extension ContentView {
             print("No password entered")
             return
         } else {
-         //   login(email: email, pass: password)
+            login()
         }
     }
     
-    /*func login(email: String, pass: String, completionBlock: @escaping (_ success: Bool) -> Void) {
-        Auth.auth().signIn(withEmail: email, password: pass) { (result, error) in
-            if let error = error, let _ = AuthErrorCode(rawValue: error._code) {
-                completionBlock(false)
+    func login() {
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            if error != nil {
+                print(error?.localizedDescription ?? "")
             } else {
-                completionBlock(true)
+                print("success")
+                isAuthenticated = true
             }
         }
-        isAuthenticated = true
-    }*/
-    
-    func checkUserInfo() {
-            
     }
+    
 }
 
 
